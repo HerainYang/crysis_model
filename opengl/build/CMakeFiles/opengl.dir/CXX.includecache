@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/herain/Documents/opengl/main.cpp
+GL/glew.h
+-
+stdio.h
+-
+GLFW/glfw3.h
+-
+glm/glm.hpp
+-
+
